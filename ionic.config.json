@@ -1,0 +1,7 @@
+{
+  "name": "atividade_mobile_2",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
