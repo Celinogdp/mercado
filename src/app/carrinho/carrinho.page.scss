@@ -1,0 +1,134 @@
+ion-content{
+ 
+    --background: rgb(255, 255, 255);
+   
+   
+  }
+   
+  .btn1{
+    --background: #f0f0f0;
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #ddd;
+   
+  }
+   
+  .h1{
+    font-size: 35px;
+    font-family: 'arial';
+    font-weight: bold;
+    color: black;
+    margin-left: 11%;
+    margin-top: 8%;
+    
+  }
+   
+  .abcd{
+    background-color: #62d64a;
+    border: solid 1px #fff;
+    color: #fff;
+    text-align: center;
+    height: 120px;
+    border-radius: 60%;
+    position: relative;
+    overflow: hidden;
+    --ion-grid-column-padding-xs: -20cm;
+  }
+   
+  .abcd1{
+    background-color: #0060dd;
+    border: solid 1px #fff;
+    color: #fff;
+    text-align: center;
+    height: 130px;
+    border-radius: 60%;
+    position: relative;
+    overflow: hidden;
+    --ion-grid-column-padding-xs: -20cm;
+  }
+   
+  .abcd2{
+    background-color: #743e00;
+    border: solid 1px #fff;
+    color: #fff;
+    text-align: center;
+    height: 130px;
+    border-radius: 60%;
+    position: relative;
+    overflow: hidden;
+    --ion-grid-column-padding-xs: -20cm;
+  }
+   
+  .efgh{
+    background-color: #61d64a00;
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+   
+  .ijkl{
+    background-color: #1a9b0000;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: #0090b4;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0px;
+  }
+   
+  .p1{
+   
+    font-size: 20px;
+  }
+   
+  .p2{
+   
+    font-size: 20px;
+  }
+   
+  .break-line{
+    display:block;
+  }
+   
+
+.grid {
+    background-color: #7785db;
+    border: solid 1px #fff;
+    color: #fff;
+    border-radius: 20px;
+    margin: 20px;
+    margin-top: 35%;
+    height: 100px;
+}
+.imgicon{
+    height: 120px;
+    width: 120px;
+    margin-top: 3px;
+    margin-left: 4px;
+}
+
+.btn1{
+    --background: #f0f0f0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #ddd;
+   
+  }
+  .pa{
+    margin-left: 70%;
+    margin-top: -10%;
+    white-space: nowrap;
+  }
+  .itens{
+    margin-top: 5%;
+  }
+
