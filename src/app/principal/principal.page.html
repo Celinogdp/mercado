@@ -1,13 +1,64 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>principal</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">principal</ion-title>
-    </ion-toolbar>
-  </ion-header>
+
+  <p class="ab">
+    <ion-icon size="large" name="location-outline"></ion-icon>
+  </p>
+
+  <p class="cd">
+    Taboa da Serra, SP
+  </p>
+
+  <ion-avatar>
+    <img src="./assets/icon/user.png"/>
+  </ion-avatar>
+
+  <p class="ef">
+    Seja bem-vindo.
+  </p>
+
+  <p class="mn">
+    Vamos pedir itens fresquinhos para você?
+  </p>
+
+  <p class="bv">
+    Categorias
+  </p>
+
+  <ion-grid> 
+    <ion-row>
+
+      <ion-col class="quadrado1">
+          <p>geujh</p>
+      </ion-col>
+
+      <ion-col class="quadrado2">
+        <p>gderhtreujh</p>
+    </ion-col>
+
+    <ion-col class="quadrado3">
+      <p>gderhtreujh</p>
+  </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-tabs>
+    <ion-tab-bar slot="bottom" class="tabs">
+      <ion-tab-button routerLink="/home">
+        <ion-icon name="home" aria-hidden="true"></ion-icon>
+      </ion-tab-button>
+  
+      <ion-tab-button routerLink="/home">
+        <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+      </ion-tab-button>
+  
+      <ion-tab-button routerLink="/principal">
+        <ion-icon name="document-outline" aria-hidden="true"></ion-icon>
+      </ion-tab-button>
+  
+      <ion-tab-button routerLink="/carrinho" >
+        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+
 </ion-content>

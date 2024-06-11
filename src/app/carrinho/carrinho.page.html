@@ -1,5 +1,5 @@
 <ion-content [fullscreen]="true">
-  <ion-button class="btn1" routerLink="/home">
+  <ion-button class="btn1" routerLink="/principal">
     <ion-icon name="chevron-back-outline"><source></ion-icon>
   </ion-button>
  
@@ -61,13 +61,15 @@
 
     <ion-grid class="grid">
       <ion-row>
-        <div class="itens">
-          <ion-col>total pagar <br> <br></ion-col>
-          <ion-col>12312 </ion-col>
+        <div class="mno">
+          <ion-col>Total pagar<br> <br></ion-col>
+          <ion-col> $ 141.84</ion-col>
         </div>
       </ion-row>
       <ion-row  class="pa">
-        <ion-col>pagar agora </ion-col>
+        <ion-col>
+          <ion-button class="btn2" fill="outline" shape="round">Pagar agora ></ion-button>
+        </ion-col>
       </ion-row>
     </ion-grid>
 

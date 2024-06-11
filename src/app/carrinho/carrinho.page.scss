@@ -95,40 +95,53 @@ ion-content{
   .break-line{
     display:block;
   }
-   
-
+  
+  .imgicon{
+      height: 120px;
+      width: 120px;
+      margin-top: 3px;
+      margin-left: 4px;
+  }
+  
+  .btn1{
+      --background: #f0f0f0;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      position: relative;
+      overflow: hidden;
+      border: 1px solid #ddd;
+     
+    }
+  
 .grid {
     background-color: #7785db;
     border: solid 1px #fff;
     color: #fff;
     border-radius: 20px;
     margin: 20px;
-    margin-top: 35%;
-    height: 100px;
+    margin-top: 47%;
+    height: 105px;
 }
-.imgicon{
-    height: 120px;
-    width: 120px;
-    margin-top: 3px;
-    margin-left: 4px;
+.itens{
+  margin-top: 5%;
 }
+.pa{
+  margin-left: 52%;
+  margin-top: -16%;
+  white-space: nowrap;
+}
+  
+  .btn2{
+  width: 150px;
+  height: 30px;
+  color: #fff;
+  font-size: 10px;
+  --border-color: #ffffff;
+  --border-style: solid;
+  --border-width: 1px;
+} 
 
-.btn1{
-    --background: #f0f0f0;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    position: relative;
-    overflow: hidden;
-    border: 1px solid #ddd;
-   
-  }
-  .pa{
-    margin-left: 70%;
-    margin-top: -10%;
-    white-space: nowrap;
-  }
-  .itens{
-    margin-top: 5%;
-  }
-
+.mno{
+  margin-top: 25px;
+}
