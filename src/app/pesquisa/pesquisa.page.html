@@ -1,0 +1,66 @@
+<ion-content [fullscreen]="true">
+
+  <p class="ab">
+    <ion-icon size="large" name="location-outline"></ion-icon>
+  </p>
+
+  <p class="cd">
+    Taboa da Serra, SP
+  </p>
+
+  <ion-avatar>
+    <img src="./assets/icon/user.png"/>
+  </ion-avatar>
+
+  <ion-searchbar placeholder="" color="dark"></ion-searchbar>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col class="quadro1">
+        <p class="p1">Frutas</p>
+        <img src="./assets/icon/frutas.png" class="iconea"/>
+      </ion-col>
+
+      <ion-col class="quadro2">
+        <p class="p1">Diversos</p>
+        <img src="./assets/icon/diversos.png" class="iconeb "/>
+    </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col class="quadro3">
+        <p class="p1">Açougue</p>
+        <img src="./assets/icon/acougue.png" class="iconea"/> 
+      </ion-col>
+
+      <ion-col class="quadro4">
+        <p class="p1">Bebidas</p>
+        <img src="./assets/icon/bebidas.png" class="iconec"/>
+    </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+
+  <ion-tabs>
+    <ion-tab-bar slot="bottom" class="tabs">
+      <ion-tab-button routerLink="/home">
+        <ion-icon name="home" aria-hidden="true"></ion-icon>
+      </ion-tab-button>
+  
+      <ion-tab-button routerLink="/pesquisa">
+        <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+      </ion-tab-button>
+  
+      <ion-tab-button routerLink="/principal">
+        <ion-icon name="document-outline" aria-hidden="true"></ion-icon>
+      </ion-tab-button>
+  
+      <ion-tab-button routerLink="/carrinho" >
+        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+</ion-content>
